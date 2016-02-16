@@ -59,7 +59,7 @@ module.exports = function(app){
 		tempC: parseInt(arr[4]),
 		wattSec: parseInt(arr[7]) 
 	}});
-	console.log(ret);
+	//console.log(ret);
     }
 
     var targetUrl = 'https://'+req.headers.host + req.url;
