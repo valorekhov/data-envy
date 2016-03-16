@@ -65,6 +65,9 @@ module.exports = function(app){
             tempC: parseInt(arr[4]),
             joules: parseInt(arr[7]) 
         }});
+    } else {
+	console.log('the document did not contain any entries', req.body.body);
+	ret = [];
     }
     
     logger.log(ret).then((savedCount)=>{
