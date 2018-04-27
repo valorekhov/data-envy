@@ -36,3 +36,5 @@ node_modules
 *.crt
 *.csr
 spool/
+
+mqtt-connection-info.json
